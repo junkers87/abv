@@ -1,1 +1,1 @@
-print("ccc2")
+print(len('furkan'))
