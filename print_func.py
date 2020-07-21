@@ -1,1 +1,1 @@
-print(len('furkan'))
+print(len('acsgşdfdsfk'))
