@@ -12,4 +12,14 @@ print(result)
 print('the result was {}'.format(result))
 
 #float formatting "{value:width.presicion f}"
-print('the result was {r}'.format(r=result))
+#width means the distance between the result was  and 0.13 strings
+print('the result was {r:1.2f}'.format(r=result))
+
+
+#f-strings
+name = "jeremies"
+print(f'his name is {name}')
+a = "churchill "
+b = "challenger "
+c = "mathilda"
+print(f'british main battle tanks are {a+b+c}')
