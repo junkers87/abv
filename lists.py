@@ -12,7 +12,7 @@ print(third_list)
 third_list[0] = 'new addition to list'
 print(third_list)
 # lists can be manuplated unlike strings
-third_list.append('kant') # appends method adds a new object in the brackets to end of the list
+third_list.append('kant') # appends method adds a new item in the brackets to end of the list
 print(third_list)
 
 #removing items from list
@@ -24,6 +24,9 @@ print(popped_item) #outcome will be the last popped item (descartes)
 print(third_list) #outcome will be without descartes
 third_list.pop(0) #first item will be removed
 print(third_list)
+
 numbers_list = [0,999,3,6,5.55]
 numbers_list.sort()
+print(numbers_list)
+numbers_list.reverse() #reverses the order of list
 print(numbers_list)
