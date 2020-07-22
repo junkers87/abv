@@ -15,3 +15,10 @@ print(Y)
 print(x.upper())
 # x. tab and you can see the methods usable on this string
 
+x = "hi this is a string"
+
+print(x.split())
+#['hi', 'this', 'is', 'a', 'string']
+
+print(x.split("i"))
+#['h', ' th', 's ', 's a str', 'ng'] removes i and prints characters between "i"'s
