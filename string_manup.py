@@ -10,4 +10,6 @@ print(mystring[2:])
 
 print(mystring[:4])
 
-# print first 4 letter (hell)
+# print first 4 letter (hell) 4 is stopping character characters
+# starts to count from 0 1 2 3 4
+
