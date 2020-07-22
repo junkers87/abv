@@ -15,3 +15,6 @@ print(mystring[:4])
 
 print(mystring[3:6])
 # start from 3rd til 6th letter
+
+print(mystring[::3])
+# starts printing with first letter than jumps 3 characters till the end of string
