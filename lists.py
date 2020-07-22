@@ -20,7 +20,10 @@ print(third_list)
 third_list.pop()  #pop removes the last item
 print(third_list)
 popped_item = third_list.pop()
-third_list.pop()
-print(third_list)
 print(popped_item) #outcome will be the last popped item (descartes)
-
+print(third_list) #outcome will be without descartes
+third_list.pop(0) #first item will be removed
+print(third_list)
+numbers_list = [0,999,3,6,5.55]
+numbers_list.sort()
+print(numbers_list)
