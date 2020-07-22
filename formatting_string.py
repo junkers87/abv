@@ -23,3 +23,6 @@ a = "churchill "
 b = "challenger "
 c = "mathilda"
 print(f'british main battle tanks are {a+b+c}')
+om606 = '125Kw'
+gtrg_grbx = '7 speed automatic gearbox'
+print(f'New Mercedes C class has {om606} engine and {gtrg_grbx}')
