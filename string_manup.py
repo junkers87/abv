@@ -22,3 +22,7 @@ print(mystring[::3])
 print(mystring[0:9:2])
 
 #starts with h than jumps for 2 4 6 8 and prints them
+
+print(mystring[::-1])
+
+# from start to end make a backward 1 length steps and print
