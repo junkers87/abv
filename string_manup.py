@@ -13,3 +13,5 @@ print(mystring[:4])
 # print first 4 letter (hell) 4 is stopping character characters
 # starts to count from 0 1 2 3 4
 
+print(mystring[3:6])
+# start from 3rd til 6th letter
