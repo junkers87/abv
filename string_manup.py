@@ -18,3 +18,7 @@ print(mystring[3:6])
 
 print(mystring[::3])
 # starts printing with first letter than jumps 3 characters till the end of string
+
+print(mystring[0:9:2])
+
+#starts with h than jumps for 2 4 6 8 and prints them
