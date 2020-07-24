@@ -7,8 +7,8 @@ my_dictionary =  {'key1':'value1','key2':'value2'}
 print(my_dictionary)   #prints the whole dictionary
 print(my_dictionary['key1']) #prints the value1
 
-prices = {"c180":'25000',"c200":'28000',"c220":'32500'}
+prices = {"180":'25000',"200":'28000',"220":'32500'}
 
-
-print(prices[input('bir model seçiniz')]+"$")
-
+a = input('bir model seçiniz')
+print(prices[a]+"$")
+print(type(a))
