@@ -25,8 +25,10 @@ print(third_list) #outcome will be without descartes
 third_list.pop(0) #first item will be removed
 print(third_list)
 
-numbers_list = [0,999,3,6,5.55]
+numbers_list = [0,999,3,0,0]
 numbers_list.sort()
 print(numbers_list)
 numbers_list.reverse() #reverses the order of list
 print(numbers_list)
+h = numbers_list.count(0)
+print(h)
