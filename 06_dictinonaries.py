@@ -12,3 +12,10 @@ prices = {"180":'25000',"200":'28000',"220":'32500'}
 a = input('bir model seçiniz')
 print(prices[a]+"$")
 print(type(a))
+d = {'k1':23904,'k2':[0,1,2],'k3':{'insidekey':100}}
+print(d['k3']['insidekey']) # output is 100
+print(d.keys()) #shows the keys
+print(d.values()) # shows all the values
+print(d.items()) #dict_items([('k1', 23904), ('k2', [0, 1, 2]), ('k3', {'insidekey': 100})])
+d['k1'] = 5
+print(d)
