@@ -7,4 +7,4 @@ print(1 <= 5)
 
 # chaining comparsions
 
-print(not 55 < 5)
+print(not 55 < 35)
