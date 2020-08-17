@@ -19,3 +19,4 @@ print(d.values()) # shows all the values
 print(d.items()) #dict_items([('k1', 23904), ('k2', [0, 1, 2]), ('k3', {'insidekey': 100})])
 d['k1'] = 5
 print(d)
+print("d")
